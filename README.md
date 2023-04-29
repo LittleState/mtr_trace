@@ -1,7 +1,7 @@
 # mtr_trace
 #### 检测VPS回程国内三网路由，用法：
 ```bash
-curl https://raw.githubusercontent.com/zhucaidan/mtr_trace/main/mtr_trace.sh|bash
+wget -O mtr_trace.sh https://raw.githubusercontent.com/LittleState/mtr_trace/main/mtr_trace.sh && chmod +x mtr_trace.sh && clear && ./mtr_trace.sh
 ```
 
 支持的线路为：电信CN2 GT，电信CN2 GIA，联通169，电信163，联通9929，联通4837，移动CMI
