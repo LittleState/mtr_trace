@@ -1,5 +1,5 @@
 # mtr_trace
-#### 检测VPS回程国内三网路由，用法：
+#### 检测VPS回程国内三网路由，用法：（自用，需要提前手动安装 mtr，感谢 [zhucaidan](https://github.com/zhucaidan)）
 ```bash
 wget -O mtr_trace.sh https://raw.githubusercontent.com/LittleState/mtr_trace/main/mtr_trace.sh && chmod +x mtr_trace.sh && clear && ./mtr_trace.sh
 ```
